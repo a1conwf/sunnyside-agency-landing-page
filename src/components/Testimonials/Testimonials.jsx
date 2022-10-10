@@ -9,7 +9,7 @@ const Testimonials = () => {
 			<div className="testimonials__container">
 				{testimonialsData.map((client) => (
 					<div className="testimonial" key={client.id}>
-						<img src={require("../../assets/" + client.profileImage + ".jpg")} alt="profile-image" className="testimonial__img" />
+						<img src={require("../../assets/" + client.profileImage + ".jpg")} alt="profile-img" className="testimonial__img" />
 						<p className="testimonial__comment">{client.comment}</p>
 						<div className="testimonial__about">
 							<span className="testimonial__about-fullname">{client.fullname}</span>

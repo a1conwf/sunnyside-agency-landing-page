@@ -25,18 +25,16 @@ const Header = () => {
 							<div className="arrow-top"></div>
 							<ul>
 								<li>
-									<a href="#">About</a>
+									<button>About</button>
 								</li>
 								<li>
-									<a href="#">Services</a>
+									<button>Services</button>
 								</li>
 								<li>
-									<a href="#">Projects</a>
+									<button>Projects</button>
 								</li>
 								<li>
-									<a className="btn yellow" href="#">
-										Contact
-									</a>
+									<button className="btn yellow">Contact</button>
 								</li>
 							</ul>
 						</div>
@@ -44,18 +42,16 @@ const Header = () => {
 
 					<ul className="header__nav-list">
 						<li>
-							<a href="#">About</a>
+							<button>About</button>
 						</li>
 						<li>
-							<a href="#">Services</a>
+							<button>Services</button>
 						</li>
 						<li>
-							<a href="#">Projects</a>
+							<button>Projects</button>
 						</li>
 						<li>
-							<a className="btn light" href="#">
-								Contact
-							</a>
+							<button className="btn light">Contact</button>
 						</li>
 					</ul>
 

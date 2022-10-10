@@ -46,8 +46,9 @@
 				align-items: center;
 				gap: 32px;
 
-				li a {
+				li button {
 					font-size: 20px;
+					font-weight: 600;
 					line-height: 25px;
 					letter-spacing: -0.14px;
 					color: $lightBlue;
@@ -87,12 +88,18 @@
 			//Nav list
 			&-list {
 				display: flex;
+				align-items: center;
 				gap: 47px;
 
-				li a {
+				li button {
+					font-size: 18px;
+					letter-spacing: -0.13px;
 					color: $white;
-					cursor: pointer;
 				}
+			}
+
+			&-hamburger {
+				display: none;
 			}
 		}
 

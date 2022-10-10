@@ -1,7 +1,3 @@
-import imageEmily from "../assets/image-emily.jpg";
-import imageJennie from "../assets/image-jennie.jpg";
-import imageThomas from "../assets/image-thomas.jpg";
-
 export const testimonialsData = [
 	{
 		id: "1",

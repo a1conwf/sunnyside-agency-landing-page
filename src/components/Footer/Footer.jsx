@@ -18,13 +18,13 @@ const Footer = () => {
 				<div className="footer__nav">
 					<ul className="footer__nav-list">
 						<li>
-							<a href="#">About</a>
+							<button>About</button>
 						</li>
 						<li>
-							<a href="#">Services</a>
+							<button>Services</button>
 						</li>
 						<li>
-							<a href="#">Projects</a>
+							<button>Projects</button>
 						</li>
 					</ul>
 				</div>
@@ -32,24 +32,16 @@ const Footer = () => {
 				<div className="footer__socials">
 					<ul className="footer__socials-list">
 						<li>
-							<a href="#">
-								<img src={iconFacebook} alt="icon-facebook" />
-							</a>
+							<img src={iconFacebook} alt="icon-facebook" />
 						</li>
 						<li>
-							<a href="#">
-								<img src={iconInstagram} alt="icon-instagram" />
-							</a>
+							<img src={iconInstagram} alt="icon-instagram" />
 						</li>
 						<li>
-							<a href="#">
-								<img src={iconTwitter} alt="icon-twitter" />
-							</a>
+							<img src={iconTwitter} alt="icon-twitter" />
 						</li>
 						<li>
-							<a href="#">
-								<img src={iconPinterest} alt="icon-pinterest" />
-							</a>
+							<img src={iconPinterest} alt="icon-pinterest" />
 						</li>
 					</ul>
 				</div>

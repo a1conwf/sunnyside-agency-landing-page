@@ -23,7 +23,9 @@
 		gap: 57px;
 		margin-bottom: 88px;
 
-		li a {
+		li button {
+			font-size: 18px;
+			letter-spacing: -0.13px;
 			color: $greenCyan;
 			transition: color 0.2s ease-out;
 
@@ -36,8 +38,9 @@
 	&__socials-list {
 		display: flex;
 		gap: 28px;
+		cursor: pointer;
 
-		li a img:hover {
+		li img:hover {
 			filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(105%) contrast(101%);
 		}
 	}

@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,900&display=swap");
 
-//Resets
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-}
-
 //Variables
 
 //Colors
@@ -35,6 +19,32 @@ $darkGrey: #58636d;
 //Fonts
 $headingFont: "Fraunces", serif;
 $bodyFont: "Barlow", sans-serif;
+
+//Resets
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	font-family: $bodyFont;
+	font-weight: 600;
+	line-height: 25px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}
 
 //Body
 body {
