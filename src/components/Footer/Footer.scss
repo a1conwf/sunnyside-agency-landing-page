@@ -1,0 +1,60 @@
+@import "../../sass/base";
+
+.footer {
+	padding: 64px 39px 80px;
+	background-color: #90d4c6;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 297px;
+		margin: 0 auto;
+	}
+
+	&__logo {
+		width: 170px;
+		height: 33px;
+		margin-bottom: 40px;
+	}
+
+	&__nav-list {
+		display: flex;
+		gap: 57px;
+		margin-bottom: 88px;
+
+		li a {
+			color: $greenCyan;
+			transition: color 0.2s ease-out;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	&__socials-list {
+		display: flex;
+		gap: 28px;
+
+		li a img:hover {
+			filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(227deg) brightness(105%) contrast(101%);
+		}
+	}
+}
+
+@media screen and (min-width: 375px) {
+	.footer {
+		padding: 64px 0 80px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		padding: 72px 0;
+
+		&__inner {
+			max-width: 300px;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+@import "../../sass/base";
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(160px, 1fr));
+
+	&__img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
